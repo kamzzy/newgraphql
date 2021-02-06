@@ -1,0 +1,12 @@
+type Query {
+ breeds: [Breeds]!
+}
+type Breeds {
+ id: ID!
+ name: String!
+ temperament: String!
+ origin:String!
+ adaptability: String!
+ intelligence: String!
+ child_friendly: String!
+}
